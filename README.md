@@ -28,7 +28,7 @@ Hotword detection is used to trigger the magic process when the spell is spoken,
 - [numpy](https://github.com/numpy/numpy)
 
 ## Usage
-#### `capture.js`
+### [capture.js](capture.js)
 1. Capture patronus videos from [pottermore](https://my.pottermore.com/patronus).
 2. Convert video from format `.webm` to `.mp4`. For instance,
 ```
@@ -36,11 +36,11 @@ ffmpeg -i input.webm output.mp4
 ```
 3. Place the `.mp4` video files under directory `video/`.
 
-#### `train_hotword.py`
+### [train_hotword.py](train_hotword.py)
 1. Train your personal hotword, or **Expecto Patronum**, detection model. For detailed instructions, refer to [snowboy document](http://docs.kitt.ai/snowboy/#api-v1-train).
 2. Place the `.pmdl` model file under directory `model/`.
 
-#### `main.py`
+### [main.py](main.py)
 1. Set up EEG signals connection. [Here](main.py#L35-L46) we use `pyserial` to read EEG data from arduino. Feel free to replace it with other signal sources.
 2. Shout out the spell **EXPECTO PATRONUM**!
 3. Enjoy your magic trip~
