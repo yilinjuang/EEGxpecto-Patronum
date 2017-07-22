@@ -4,7 +4,7 @@
 
 Use [Electroencephalography (EEG)](https://en.wikipedia.org/wiki/Electroencephalography) to simulate [Patronus Charm](https://www.pottermore.com/writing-by-jk-rowling/patronus-charm).
 
-2017 Biomedical Engineering Final Project with H. T. Wu and C. J. Wu.
+2017 Biomedical Engineering Final Project with S. T. Wu and Z. R. Wu.
 
 ## Description
 > As a pure, protective magical concentration of happiness and hope (the recollection of a single talisman memory is essential in its creation). ---J.K. Rowling
