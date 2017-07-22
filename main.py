@@ -79,7 +79,7 @@ try:
 
         ratio = get_alpha_beta_ratio(frame_for_process)
         logger.debug("Alpha-beta-ratio = {:.5f}".format(ratio))
-        if ratio < 0.3:
+        if ratio < 0.4:
             strikes.append(True)
         else:
             strikes.append(False)
