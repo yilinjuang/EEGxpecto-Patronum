@@ -80,7 +80,7 @@ class Hotword(object):
         """
         def callback():
             level = self.strikes.count(False) / self.strikes.maxlen
-            logger.debug("Callback: {}\t{}".format(video, level))
+            self.logger.debug("Callback: {}\t{}".format(video, level))
             self.cb_queue.put((video, level))
         return callback
 
