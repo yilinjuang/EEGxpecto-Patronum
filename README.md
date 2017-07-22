@@ -18,9 +18,10 @@ Hotword detection is used to trigger the magic process when the spell is spoken,
 ![](https://images.pottermore.com/bxd3o8b291gf/3wLCdHOmLmAmKCCyia4AQ6/528dbdf658742466c8f0c9e48aa3f602/Expecto_Patronum.gif)
 
 ## Requirement
-- EEG signals: retrieved from EEG headset, for instance, [Mindwave Mobile](https://store.neurosky.com/pages/mindwave).
+### EEG signals
+Retrieved from EEG headset, for instance, [Mindwave Mobile](https://store.neurosky.com/pages/mindwave). Checkout [mindwave.ino](mindwave.ino) for collecting EEG signals from Mindwave Mobile thru bluetooth using arduino and HC-05 bluetooth module.
 
-## Dependency
+## Dependencies
 - [snowboy](https://github.com/Kitt-AI/snowboy): DNN based hotword and wake word detection toolkit.
 - [opencv3](https://github.com/opencv/opencv): Open Source Computer Vision Library.
 - [pyserial](https://github.com/pyserial/pyserial): Python serial port access library.
